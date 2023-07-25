@@ -1,0 +1,16 @@
+    # 14 HORAS DE SESION 50400
+    php_value session.cookie_lifetime 50400
+    php_value session.gc_maxlifetime 50400
+    # CAMBIAR EL PATH DE LAS SESIONES PARA EL COBOFAR ANALYTIC
+    php_value session.save_path C:\xampp\htdocs\analyticsCobofar\session\storage
+   
+   
+    php_value max_input_vars 2400000
+	php_value post_max_size 64M
+	php_value memory_limit 256M
+	php_value upload_max_filesize 64M
+	php_value max_execution_time 30000
+	php_value max_input_time 1000
+
+	
+	
